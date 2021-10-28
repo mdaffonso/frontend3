@@ -5,6 +5,7 @@ export const Card = () => {
 
   const data = [
       { name: "Felipe", gender: "m", bringing: "batata-frita", invited: true }, 
+      { name: "Vinícius", gender: "m", bringing: "pipoca", invited: true },
       { name: "Adryana", gender: "f", bringing: "doces", invited: true }, 
       { name: "Matheus", gender: "m", bringing: "pizza", invited: false },
       { name: "Ednaldo Pereira", gender: "m", bringing: "bebidas", invited: true }
