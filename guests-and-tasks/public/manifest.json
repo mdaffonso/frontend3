@@ -1,6 +1,7 @@
 {
   "short_name": "Convidados e Tarefas",
   "name": "Convidados e Tarefas",
+  "description": "Lista de convidados e o que eles devem levar para a festa da música tupiniquim, que tá rolando aqui na rua Antônio Carlos Jobim.",
   "icons": [
     {
       "src": "favicon.png",
