@@ -1,0 +1,10 @@
+.Card {
+  background: #f8f6f3;
+  width: max-content;
+  padding: clamp(1rem, 10vmin, 4rem);
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 3rem;
+  border-radius: 0.25rem;
+  box-shadow: 0.5rem 0.5rem 3rem -0.5rem rgba(0, 0, 0, 0.1);
+}
