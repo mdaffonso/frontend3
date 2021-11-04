@@ -1,0 +1,61 @@
+.Item {
+  --t: 250ms;
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  padding: 0;
+  cursor: pointer;
+  color: white;
+  animation: fadeIn var(--t) linear;
+
+  &:active {
+    transform: translateY(1px);
+  }
+
+  &[data-out="true"] {
+    animation: fadeOut var(--t) linear;
+    pointer-events: none;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    flex-grow: 1;
+  }
+
+  h2 {
+    width: 100%;
+    height: 100%;
+    background: var(--blue);
+    flex-grow: 1;
+    margin: 0;
+    padding: 1rem 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
