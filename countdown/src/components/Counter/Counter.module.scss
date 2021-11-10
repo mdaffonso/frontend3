@@ -1,0 +1,12 @@
+.Counter {
+  --d: clamp(3rem, 15vmax, 10rem);
+  padding: 3rem;
+  width: var(--d);
+  height: var(--d);
+  font-size: clamp(1rem, 10vmax, 6rem);
+  border-radius: 50%;
+  background: white;
+  color: black;
+  display: grid;
+  place-content: center;
+}
