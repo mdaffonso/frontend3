@@ -60,3 +60,56 @@ li {
   text-align: center;
   font-size: 1.5rem;
 }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 2rem;
+  width: 100vw;
+  padding: 1rem;
+  background: rgb(255, 188, 0);
+  color: black;
+}
+
+header a {
+  position: relative;
+  color:black;
+  text-decoration: none;
+}
+
+header p {
+  position: relative;
+}
+
+header p::before {
+  content: "";
+  position: absolute;
+  top: -0.5rem;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 0.25rem solid transparent;
+  border-top-color: black;
+  transform: translateX(-50%);
+}
+
+.buttons-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.buttons-wrapper button {
+  width: 100%;
+  padding: 1em;
+  font-size: 2rem;
+  background: rgb(255, 174, 0);
+  color: black;
+  border: none;
+  cursor: pointer;
+}
