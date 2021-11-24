@@ -113,3 +113,8 @@ header p::before {
   border: none;
   cursor: pointer;
 }
+
+.not-found p {
+  text-align: center;
+  padding: 1rem;
+}
